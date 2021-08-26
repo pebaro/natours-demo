@@ -1,0 +1,23 @@
+.clearfix {
+	&::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+
+.absolute-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+// .col {
+// 	background-color: cadetblue;
+// 	float: left;
+
+// 	&:not(:last-child) {
+// 		margin-right: $gutter-horizontal;
+// 	}
+// }
